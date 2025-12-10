@@ -19,11 +19,12 @@ public class task_1293
         if (nOfPanels >= 1 && nOfPanels <= 100 && wOfPanels >= 1 && wOfPanels <= 100
                 && hOfPanels >= 1 && hOfPanels <= 100)
         {
-            System.out.printf("\n%d ng of sulfid needed", nOfPanels * wOfPanels * hOfPanels * 25);
+            System.out.printf("\n%d ng of sulfid needed\n", nOfPanels * wOfPanels * hOfPanels * 2);
         }
         else
         {
-            System.out.print("\nWrong input. All three values should be >= 1 and <= 100");
+            System.out.println("\nWrong input. All three values should be >= 1 and <= 10\n");
+            main();
         }
 
         userInput.close();
