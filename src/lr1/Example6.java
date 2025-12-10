@@ -18,6 +18,6 @@ public class Example6
         String patronym = userInput.nextLine();
 
         System.out.printf("\nHello %s %s %s\n", lastName, firstName, patronym);
-         userInput.close();
+        userInput.close();
     }
 }

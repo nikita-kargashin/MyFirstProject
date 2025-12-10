@@ -1,6 +1,7 @@
 package lr1;
 
-public class Example3 {
+public class Example3
+{
     static void main() {
         int s, d;
         s = 10;
@@ -16,5 +17,5 @@ public class Example3 {
         if (s > d) {
             System.out.println("S > D");
         }
-    }
+    }   
 }

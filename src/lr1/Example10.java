@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class Example10
 {
-    static void main() {
+    static void main()
+    {
         Scanner userInput = new Scanner(System.in);
         System.out.print("Year of your birth: ");
         int yearOfBirth = userInput.nextInt();
