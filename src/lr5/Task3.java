@@ -5,7 +5,6 @@ class Task3 {
         ConstructorsTest test = new ConstructorsTest();
         test = new ConstructorsTest(1);
         test = new ConstructorsTest(1, 1);
-
     }
 }
 

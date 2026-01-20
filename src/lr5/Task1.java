@@ -5,10 +5,8 @@ class Task1 {
         TestClass test = new TestClass();
 
         test.setValue(IO.readln("Введите символ: ").toCharArray()[0]);
-        IO.println("Символ" + test.getValue());
-        IO.println("Код" + test.getCode());
-
-
+        IO.println("Символ: " + test.getValue());
+        IO.println("Код: " + test.getCode());
     }
 }
 
