@@ -5,7 +5,7 @@ import java.io.*;
 public class Task3 {
     static void main() {
         final String SOURCE_FILE = "pushkin.txt";
-        final String DEST_FILE = "pshkn.txt";
+        final String DEST_FILE   = "pshkn.txt";
         final char[] RU_CONSONANTS = {'Б', 'В', 'Г', 'Д', 'Ж', 'З', 'Й', 'К',
                 'Л', 'М', 'Н', 'П', 'Р', 'С', 'Т', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ'};
 
