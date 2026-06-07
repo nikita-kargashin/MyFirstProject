@@ -1,0 +1,10 @@
+<employees>
+    <employee>
+        <name>Ivan</name>
+        <birthYear> 1990 </birthYear>
+    </employee>
+    <employee>
+        <name>Petr</name>
+        <birthYear> 1992 </birthYear>
+    </employee>
+</employees>

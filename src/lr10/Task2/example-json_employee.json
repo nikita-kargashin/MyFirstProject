@@ -1,0 +1,12 @@
+{
+  "catalog": [
+    {
+      "name": "Ivan",
+      "birthYear": 1990
+    },
+    {
+      "name": "Petr",
+      "birthYear": 1992
+    }
+  ]
+}
