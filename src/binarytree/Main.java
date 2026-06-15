@@ -57,5 +57,4 @@ public class Main {
         System.out.println("size: " + tree.getSize());
         System.out.println("height: " + tree.getHeight());
     }
-
 }

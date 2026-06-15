@@ -5,7 +5,6 @@ import java.util.*;
 public class BinarySearchTree<T extends Comparable<T>> implements Iterable<T> {
     private Node<T> root = null;
     private int size = 0;
-    private boolean removed;
 
     private static class Node<E> {
         E value;
@@ -64,6 +63,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements Iterable<T> {
         return Math.max(getHeight(node.left, h + 1), getHeight(node.right, h + 1));
     }
 
+    private boolean removed;
     public boolean remove(T value) {
         removed = false;
         root = remove(value, root);
